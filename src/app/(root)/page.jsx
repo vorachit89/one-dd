@@ -42,9 +42,9 @@ export default function RootPage() {
         </div>
         {/* Menu */}
         <div className="flex gap-3 justify-end items-center">
-          <Button>Button 1</Button>
-          <Button>Button 2</Button>
-          <Button>Button 3</Button>
+          <Button>Home </Button>
+          <Button>Story </Button>
+          <Button>About </Button>
         </div>
         {/* Story Card */}
         <div className="mt-12 flex items-center">
