@@ -9,6 +9,7 @@ import {
   CardHeader,
   IconButton,
 } from "@material-tailwind/react";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -19,17 +20,14 @@ export default function AboutPage() {
           <div className="w-4/12">
             <div className="flex items-center gap-4">
               <Avatar
-                src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf241d2cb2df87a1a/644eb56f41057c528cb47798/GOAL_-_Blank_WEB_-_Facebook_-_2023-04-30T193705.259.png?auto=webp&format=pjpg&width=3840&quality=60"
+                src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t39.30808-6/299084657_759034651969472_2646600942601389682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGqRhufdEIIcKGsvH82Zjy8cjr6_yLM-JtyOvr_Isz4mzyMJboPaKHOZpdQjIKC25dTHt-8dCS8-LAyQ1-YZv_r&_nc_ohc=-DoFoBA7mhAAX_E_d-x&_nc_ht=scontent.fbkk29-8.fna&oh=00_AfDDVWt6Xi1aIeaWLGCIorANYiWkGUSqEf0Wn_m5EoMz1w&oe=660562CC"
                 alt="avatar"
+                size="xxl"
               />
               <div>
-                <Typography variant="h6">Jürgen Klopp</Typography>
-                <Typography
-                  variant="small"
-                  color="gray"
-                  className="font-normal"
-                >
-                  MANAGER Liverpool
+                <Typography variant="h4">Vorachit</Typography>
+                <Typography variant="lead" color="gray" className="font-normal">
+                  ทำแม่มทุกอย่าง
                 </Typography>
               </div>
             </div>
@@ -43,10 +41,91 @@ export default function AboutPage() {
         </div>
         {/* Menu */}
         <div className="flex gap-3 justify-end items-center">
-          <Button>Home </Button>
-          <Button>Story </Button>
-          <Button>About </Button>
+          <Link href="/home">
+            <Button>Home </Button>
+          </Link>
+          <Link href="/story">
+            <Button>Story </Button>
+          </Link>
+          <Link href="/about">
+            <Button>About </Button>
+          </Link>
         </div>
+        <div className=" mt-10">
+          <img
+            className="h-full w-full rounded-lg object-cover object-center"
+            src="https://c4.wallpaperflare.com/wallpaper/147/130/412/style-pen-candle-book-still-life-hd-wallpaper-thumb.jpg"
+            alt="wallpaper"
+          />
+        </div>
+        <Typography variant="h3">
+          <p className="mt-8">About My Websit</p>
+        </Typography>
+        <Typography variant="h4">
+          <p className="mt-10">
+            Welcome to the website This website was created to allow everyone to
+            express their feelings from the outside world by telling a story
+            with a single picture. Then write articles about various stories
+            that come into your daily life. whether good or bad Please tell and
+            share. Let us know your story.
+          </p>
+        </Typography>
+        <Typography variant="h4">
+          <p className="mt-10">
+            ขอต้อนรับสู่เว็บไซด์
+            เว็บนี้ทำขึ้นมาเพื่อให้ทุกคนได้บ่งบอกความรู้สึกจากโลกภายนอกโดยการเล่าเรื่องราวด้วยภาพหนึงภาพ
+            แล้วเขียนเป็นบทความเรื่องราวต่างๆที่ผ่านเข้ามาในชีวิตแต่ละวัน
+            ไม่ว่าจะดีหรือไม่ดี ขอให้เล่าแล้วแชร์ เรื่องราวของคุณให้เราได้รับรู้
+            ไม่ว่าจะเป็นยังไง ขอให้ทุกวันของคุณเป็นวันที่ดี ขอบคุณครับ
+          </p>
+        </Typography>
+        <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center mt-20 md:justify-between">
+          <Typography color="blue-gray" className="font-normal">
+            &copy; 2023 Material Tailwind
+          </Typography>
+          <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
+            <li>
+              <Typography
+                as="a"
+                href="#"
+                color="blue-gray"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+              >
+                About Us
+              </Typography>
+            </li>
+            <li>
+              <Typography
+                as="a"
+                href="#"
+                color="blue-gray"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+              >
+                License
+              </Typography>
+            </li>
+            <li>
+              <Typography
+                as="a"
+                href="#"
+                color="blue-gray"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+              >
+                Contribute
+              </Typography>
+            </li>
+            <li>
+              <Typography
+                as="a"
+                href="#"
+                color="blue-gray"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+              >
+                Contact Us
+              </Typography>
+            </li>
+          </ul>
+        </footer>
       </div>
     </>
   );
