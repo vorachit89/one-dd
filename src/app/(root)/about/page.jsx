@@ -20,7 +20,7 @@ export default function AboutPage() {
           <div className="w-4/12">
             <div className="flex items-center gap-4">
               <Avatar
-                src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t39.30808-6/299084657_759034651969472_2646600942601389682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGqRhufdEIIcKGsvH82Zjy8cjr6_yLM-JtyOvr_Isz4mzyMJboPaKHOZpdQjIKC25dTHt-8dCS8-LAyQ1-YZv_r&_nc_ohc=-DoFoBA7mhAAX_E_d-x&_nc_ht=scontent.fbkk29-8.fna&oh=00_AfDDVWt6Xi1aIeaWLGCIorANYiWkGUSqEf0Wn_m5EoMz1w&oe=660562CC"
+                src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t39.30808-6/406581965_1032166391322962_8152656003267527206_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pD4G2iRRi1wAX9PBIg3&_nc_ht=scontent.fbkk29-8.fna&oh=00_AfBIcePUNwL3J0WjfTg7uywq7ANn5uvfMbx1wtvt9mJ76A&oe=6611F167"
                 alt="avatar"
                 size="xxl"
               />
