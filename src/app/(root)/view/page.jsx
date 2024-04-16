@@ -22,45 +22,7 @@ export default function RootPage() {
       <div className="mx-auto ">
         <div className="container mx-auto min-h-screen">
           {/* Header */}
-          <div className="flex items-center py-8 ">
-            <div className="w-4/12">
-              <div className="flex items-center gap-4">
-                <Avatar
-                  src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t39.30808-6/299084657_759034651969472_2646600942601389682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGqRhufdEIIcKGsvH82Zjy8cjr6_yLM-JtyOvr_Isz4mzyMJboPaKHOZpdQjIKC25dTHt-8dCS8-LAyQ1-YZv_r&_nc_ohc=-DoFoBA7mhAAX_E_d-x&_nc_ht=scontent.fbkk29-8.fna&oh=00_AfDDVWt6Xi1aIeaWLGCIorANYiWkGUSqEf0Wn_m5EoMz1w&oe=660562CC"
-                  alt="avatar"
-                  size="xxl"
-                />
-                <div>
-                  <Typography variant="h4">Vorachit</Typography>
-                  <Typography
-                    variant="lead"
-                    color="gray"
-                    className="font-normal"
-                  >
-                    ทำแม่มทุกอย่าง
-                  </Typography>
-                </div>
-              </div>
-            </div>
-            <div className="w-4/12 text-center">
-              <Typography variant="h1">One DD</Typography>
-            </div>
-            <div className="w-4/12 text-right">
-              <Button>Logout</Button>
-            </div>
-          </div>
-          {/* Menu */}
-          <div className="flex gap-3 justify-end items-center">
-            <Link href="/home">
-              <Button>Home </Button>
-            </Link>
-            <Link href="/story">
-              <Button>Story </Button>
-            </Link>
-            <Link href="/about">
-              <Button>About </Button>
-            </Link>
-          </div>
+          
           <img
             className="h-99 w-full object-cover mt-12 object-center"
             src="https://www.thestreetratchada.com/upload/contents/17084007972.jpg"
